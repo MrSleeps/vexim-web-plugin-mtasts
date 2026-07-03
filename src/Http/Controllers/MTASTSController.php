@@ -48,7 +48,7 @@ class MTASTSController extends Controller
             $output = "version: STSv1\n";
             $output .= "mode: ". config('mtasts.mta_sts_mode') ."\n"; // or "testing" or "none"
             $output .= "mx: " . implode("\nmx: ", $mxRecords) . "\n";
-            $output .= "max_age: 86400\n"; // 1 day in seconds
+            $output .= "max_age:". config('mtasts.mta_sts_max_age') ."\n"; // 1 day in seconds
             
             return response($output, 200)
                 ->header('Content-Type', 'text/plain; charset=utf-8')
