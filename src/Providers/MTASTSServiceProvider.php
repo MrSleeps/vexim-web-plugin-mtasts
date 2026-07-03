@@ -40,7 +40,7 @@ class MTASTSServiceProvider extends ServiceProvider
         
 		// Published via
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/mta-sts.php',
+            __DIR__ . '/../config/mtasts.php',
             'mtasts'
         );        
         
