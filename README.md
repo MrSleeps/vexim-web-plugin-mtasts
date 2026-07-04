@@ -8,7 +8,9 @@ This plugin is designed to work with the [VExim Web UI](https://github.com/MrSle
 
 It provides the MTA-STS .wellknown/ support.
 
-You need to install [VExim Web UI](https://github.com/MrSleeps/VExim-Web-UI) for this to work
+You need to install [VExim Web UI](https://github.com/MrSleeps/VExim-Web-UI) for this to work.
+
+This plugin requires the [DNS Tools plugin](https://github.com/MrSleeps/vexim-web-plugin-dnstools) (it will install automatically).
 
 [More information about this plugin can be found in the Wiki.](https://github.com/MrSleeps/VExim-Web-UI/wiki)
 
