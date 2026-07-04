@@ -11,7 +11,7 @@
         "php": "^8.4",
         "illuminate/support": "^13.0",
         "jeremykendall/php-domain-parser": "^6.0",
-        "vexim-web-plugin-dnstools": "^1.0"
+        "mrsleeps/vexim-web-plugin-dnstools": "dev-dev"
     },
     "autoload": {
         "psr-4": {
