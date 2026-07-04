@@ -32,11 +32,11 @@ class MTASTSServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/../Routes/web.php');
 
         // Load migrations
-        /*
-        if (is_dir(__DIR__ . '/../Database/Migrations')) {
-            $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
+        
+        if (is_dir(__DIR__ . '/../../Database/Migrations')) {
+            $this->loadMigrationsFrom(__DIR__ . '/../../Database/Migrations');
         }
-        */
+        
         
 		// Published via
         $this->mergeConfigFrom(
